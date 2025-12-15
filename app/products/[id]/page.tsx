@@ -24,7 +24,6 @@ export default function ProductDetail() {
     const params = useParams();  
     const router = useRouter()
     const id = params?.id as string;  
-  console.log(id, "dfjgldfjl"); 
 
   const { data: product, isLoading } = useQuery<Product, Error>({
     queryKey: ['product', id],
