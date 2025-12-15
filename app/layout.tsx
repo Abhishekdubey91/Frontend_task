@@ -14,7 +14,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="min-h-screen bg-gray-50 text-gray-900">
             <header className="bg-white shadow-sm">
               <div className="max-w-6xl mx-auto px-4 py-4">
-                <h1 className="text-xl font-semibold">FakeStore Antigravity — Products</h1>
+                <h1 className="text-xl font-semibold">FakeStore — Products</h1>
               </div>
             </header>
             <main className="max-w-6xl mx-auto px-4 py-6">{children}</main>
